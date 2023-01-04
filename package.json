@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.0.0",
+    "@strapi/plugin-i18n": "4.5.3",
+    "@strapi/plugin-users-permissions": "4.5.3",
+    "@strapi/provider-email-amazon-ses": "^4.1.11",
+    "@strapi/provider-upload-cloudinary": "^4.5.5",
+    "@strapi/strapi": "4.5.3",
+    "better-sqlite3": "7.4.6",
+    "lodash.set": "^4.3.2",
+    "mime-types": "^2.1.27",
+    "pg": "^8.7.3",
+    "pg-connection-string": "^2.5.0"
+  },
+  "name": "eneotu-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Backend For Personal Blog",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "author": {
+    "name": "Eneotu Joe"
+  },
+  "strapi": {
+    "uuid": "b192d300-1d39-4f6a-a452-39ea623b6357",
+    "template": "@strapi/template-blog@^1.0.0",
+    "starter": "@strapi/starter-next-blog"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
