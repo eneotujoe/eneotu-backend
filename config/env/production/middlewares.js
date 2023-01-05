@@ -14,6 +14,14 @@ module.exports = [
       },
     },
   },
+  {
+    name: 'strapi::cors',
+    config: {
+      enabled: true,
+      headers: '*',
+      origin: ['https://eneotu.com']
+    }
+  },
   "strapi::cors",
   "strapi::poweredBy",
   "strapi::logger",
