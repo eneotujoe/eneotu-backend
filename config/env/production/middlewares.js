@@ -19,7 +19,7 @@ module.exports = [
     config: {
       enabled: true,
       headers: '*',
-      origin: ['https://eneotu.com']
+      origin: ['https://eneotu.com', 'https://eneotu-backend.onrender.com']
     }
   },
   "strapi::cors",
